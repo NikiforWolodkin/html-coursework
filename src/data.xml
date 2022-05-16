@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue>
+	<product>
+		<name>Subaru BRZ</name>
+		<price>28,400</price>
+		<year>2016</year>
+		<state>Новая</state>
+		<image>brz/brz.png</image>
+		<promoText>Идеальна для горных дорог.</promoText>
+		<promoImage>brz/brz.jpg</promoImage>
+		<link>product1.html</link>
+	</product>
+	<product>
+		<name>Nissan GT-R</name>
+		<price>72,890</price>
+		<year>1999</year>
+		<state>БУ</state>
+		<image>gtr/gtr.png</image>
+		<promoText>Легенда японского автопрома в отличном состоянии.</promoText>
+		<promoImage>gtr/gtr.jpg</promoImage>
+		<link>product2.html</link>
+	</product>
+	<product>
+		<name>Toyota Supra</name>
+		<price>108,900</price>
+		<year>2022</year>
+		<state>Новая</state>
+		<image>supra/supra.png</image>
+		<promoText>Легенда снова здесь.</promoText>
+		<promoImage>supra/supra2.jpg</promoImage>
+		<link>product3.html</link>
+	</product>
+	<product>
+		<name>Honda NSX</name>
+		<price>98,700</price>
+		<year>1990</year>
+		<state>БУ</state>
+		<image>nsx/nsx.png</image>
+		<promoText>Первый японский суперкар.</promoText>
+		<promoImage>nsx/nsx.jpeg</promoImage>
+		<link>product4.html</link>
+	</product>
+	<product>
+		<name>Nissan GT-R</name>
+		<price>145,200</price>
+		<year>2020</year>
+		<state>Новая</state>
+		<image>r35/r35.png</image>
+		<promoText>Бескомпромиссная производительность.</promoText>
+		<promoImage>r35/r35.jpg</promoImage>
+		<link>product5.html</link>
+	</product>
+	<product>
+		<name>Nissan Silvia</name>
+		<price>23,600</price>
+		<year>1999</year>
+		<state>БУ</state>
+		<image>s15/s15.png</image>
+		<promoText>Та самая S15 с минимальными модификациями.</promoText>
+		<promoImage>s15/s15.jpg</promoImage>
+		<link>product6.html</link>
+	</product>
+</catalogue>
