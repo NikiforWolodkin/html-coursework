@@ -1,0 +1,61 @@
+$shadow: rgba(0, 0, 0, 0.2)
+$lighter_grey: #F4F4F4
+
+html, body
+  font-family: 'Montserrat', sans-serif
+  margin: 0
+  padding: 0
+
+.catalogue-head 
+  text-align: center
+  font-size : 56px
+  font-weight: bold
+  margin: 90px 20px 20px 20px
+
+.catalogue 
+  display : flex
+  flex-wrap: wrap
+  max-width: 1200px
+  margin: auto auto 20px auto
+
+.product
+  padding: 10px
+  margin: 10px 10px 20px 10px
+  max-width: 360px
+  border-radius: 8px
+  background-color: $lighter_grey
+  cursor: pointer
+  box-shadow: 0 2px 16px $shadow
+
+.catalogue a
+  color: black
+  text-decoration: none
+
+.catalogue a:hover 
+  color: red
+
+img 
+  width: 100%
+  
+.product-name 
+  font-size: 24px
+  font-weight: bold
+
+.product-name, .product-price 
+  margin: 10px
+  
+
+@media screen and (max-width: 1200px) and (min-width: 820px) 
+  .product 
+    max-width: 600px
+    flex-basis: 45%
+    
+
+@media screen and (max-width: 820px) 
+  .product 
+    max-width: 820px
+  
+
+  a 
+   text-decoration: none
+   color: inherit
